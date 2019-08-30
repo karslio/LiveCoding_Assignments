@@ -1,0 +1,92 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: "Just Me Again Down Here", cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Baloo Chettan", cursive;
+  color: #f16529;
+  padding: 1%;
+}
+
+h3 {
+  font-family: "Baloo Chettan", cursive;
+  color: #29a9df;
+}
+
+p {
+  font-family: "Baloo Chettan", cursive;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+/* Navigatioan Bar */
+nav{
+  background-color:  #24dddd;
+  
+}
+.navbar-brand, .navbar-nav {
+  font-family: "Baloo Chettan", cursive;
+  font-size: 3rem;
+  
+}
+
+.navbar-nav {
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+
+/* <!-- Header --> */
+.container-fluid {
+  background-color: #24dddd;
+  padding: 5% 15%;
+  color: white;
+  font-size: 3rem;
+}
+
+.karslio {
+  padding-top: 3%;
+}
+
+/* <!--About --> */
+#page-content {
+  padding: 1% 15%;
+}
+
+#about-text {
+  padding-top: 1.5%;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 5%;
+}
+.skills-img{
+  padding:5% 0;
+}
+.skills-text {
+  padding-top: 2.5%;
+}
+a
+hr {
+  margin: 0 0 2%;
+  border: none;
+  border-bottom: 5px dotted;
+}
+
+.row-footer {
+  padding: 0 0;
+  font-family: "Baloo Chettan", cursive;
+  text-align: left;
+  font-size: 1.3rem;
+}

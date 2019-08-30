@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.header{
+    padding-top: 25px;
+    margin: 0 auto;
+    height: 70px;
+    width: 80%;
+    border-bottom: 20px solid;
+    border-bottom-color: blue;
+    margin-bottom: 15px;
+}
+
+.logo{
+    position: absolute;   
+    left: 30%;
+}
+
+a{
+    color: blue;
+}
+.menu-items{
+    text-align: right;
+    position: absolute;    
+    right: 30%;
+    width: 25%;
+   
+}
+li{
+    display: inline-flex;
+    list-style-type:none;
+}  
+
+.container{
+    margin: 0 auto;
+    height: 730px;
+    /* background-color: rgb(219, 138, 202); */
+    width: 80%;
+    margin-bottom: 10px;     
+}
+.col1{   
+    width:13%;
+    height: 710px;
+    /* background-color: coral; */
+    position: absolute;   
+    left: 30%;
+}
+.col2{
+    width: 27%;
+    height: 710px;
+    /* background-color: rgb(80, 255, 95); */
+    position: absolute;   
+    left: 43%;
+
+}
+table{
+    width: 100%;
+
+
+}
+
+td{
+    padding: 10px;
+  }
+
+
+.rows-right1{
+    height: 200px;
+    /* background-color: aqua; */
+    text-align: left;
+    padding-left: 20px
+}
+
+.rows-right2{
+    text-align: left;
+}
+
+#theway{
+    margin: 0;
+    padding-top: 2px;
+}
+
+#get5{
+    float: right;
+    margin-top: 15px;
+    margin-right: 95px;
+}
+
+.signup{
+    background-color: rgb(220, 243, 93);
+    width: 80%;
+    margin-left: 30px;
+}
+
+#spotlight{
+    text-align: left;
+    width: 80%;
+    margin-left: 30px;
+    background-color:  rgb(226, 226, 221);
+}
+
+.rows-right2{
+    height: 400px;
+}
+
+.row1{
+    text-align: left;   
+    background-color: rgb(226, 226, 221);
+    display: block;
+}
+
+.row2{
+    text-align: left;   
+    background-color: rgb(226, 226, 221);
+    display: block;
+    padding-bottom: 50px
+}
+
+
+#logo2{
+    position: absolute;
+    left: 20%;
+
+
+}
+
+#relief{
+    padding-top: 15px;
+    text-align: right
+    
+}
+
+.welcome{
+    background-color: rgb(209, 207, 207);
+    padding-left: 40px;
+    font-size: 20px;    
+
+}
+
+tr{
+    padding: px;
+}
+.list1 li{
+    display: inline;
+    
+}
+
+.list1left{
+    float:right;
+}
+
+span{
+    float:right;
+    padding-right: 20px;
+    font-size: 18px; 
+    
+}
+
+
+
+
+.footer{
+    width: 40%;
+    height:200px;
+    margin: 0 auto;
+}
+
+
+.foot-items{
+    padding-top: 25px;
+}
+
+.news td{
+    padding: 5px;
+}
+
+.newsleft{
+    text-align: right;
+}
