@@ -1,0 +1,99 @@
+11111111111111111111111111111111111111111111111
+
+
+Lenovo Thinkpad@oguzhan MINGW64 ~
+$ cd Desktop
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop
+$ mkdir week3
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop
+$ cd week3
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ touch pets.txt
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ echo "cat" > pets.txt
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ echo "dog" >> pets.txt
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ echo "hamster" >> pets.txt
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ cat pets.txt
+cat
+dog
+hamster
+
+2222222222222222222222222222222222222222222222222222
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ touch commands.txt
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ echo "cat" > commands.txt
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ echo "ls" >> commands.txt
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ echo "pwd" >> commands.txt
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/week3
+$ cat commands.txt
+cat
+ls
+pwd
+
+33333333333333333333333333333333333333333333333333333
+
+44444444444444444444444444444444444444444444444444444
+Lenovo Thinkpad@oguzhan MINGW64 ~
+$ cd Desktop
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop
+$ mkdir newfile
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop
+$ cd newfile
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/newfile
+$ touch greetings.txt
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/newfile
+$ ls
+greetings.txt
+
+
+555555555555555555555555555555555555555555555555555555
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/newfile
+$ for i in {1..5};do echo "Hello" >> greetings.txt ;done
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/newfile
+$ cat greetings.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+666666666666666666666666666666666666666666666666666666
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/newfile
+$ for i in {1..5};do touch $i.txt ;done
+
+Lenovo Thinkpad@oguzhan MINGW64 ~/Desktop/newfile
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  greetings.txt
+
+
+
+
+
+
+
+
