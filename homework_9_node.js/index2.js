@@ -2,6 +2,8 @@
 // <!-- npm install uuid  -->
 // <!-- npm install -D nodemon -->
 // npm i moment
+// npm install express
+// npm i nodemon
 
 // 1. Write to .txt file
 // Create a function that writes all numbers between given 2 values in a text(txt) file. Example: writetext(22,55)
@@ -33,6 +35,7 @@ function mergeFile(f1, f2) {
   let file1 = getTheText(f1);
   let file2 = getTheText(f2);
   console.log(file1 + file2);
+  fs.appendFileSync("./niwefile.txt", file1 + file2);
 }
 
 mergeFile("myfile.txt", "secondfile.txt");
