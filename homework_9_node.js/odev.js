@@ -1,4 +1,4 @@
-// <!-- npm  init -->
+// <!-- npm  init -y -->
 // <!-- npm install uuid  -->
 // <!-- npm install -D nodemon -->
 // npm i moment
@@ -35,7 +35,7 @@ function mergeFile(f1, f2) {
   let file1 = getTheText(f1);
   let file2 = getTheText(f2);
   console.log(file1 + file2);
-  fs.appendFileSync("./niwefile.txt", file1 + file2);
+  fs.appendFileSync("./niwefile2.txt", file1 + file2);
 }
 
 mergeFile("myfile.txt", "secondfile.txt");
