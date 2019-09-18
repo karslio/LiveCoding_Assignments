@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const { calculator } = require("./helper");
 const app = express();
 const port = 3000;
-app.listen(port, () => console.log(`Appp listening on port ${port}!`));
+app.listen(port, () => console.log(`App listening on port ${port}!`));
 app.use(bodyParser.json());
 
 // 1--------------------------------------------------------------------------------------------------------------------
@@ -38,12 +38,13 @@ app.delete("/todo/:todo", (req, res) => {
 
 // /future/hours route(GET) that adds given hours to the current datetime and returns result.
 
-// app.get("/future/:hours", (req, res) => {
-//   let futureDate = moment().add(req.params.hours, "hours");
+app.get("/future/:hours", (req, res) => {
+  // let futureDate = moment().add(req.params.hours, "hours");
   
-//   console.log(futureDate);
-//   res.send(req.params.hours);
-// })
+  
+  // console.log(futureDate);
+  res.send(req.params.hours);
+})
 
 
 // /login route((POST) that checks if the given username and password is correct or not and will respond with appropriate status code.
