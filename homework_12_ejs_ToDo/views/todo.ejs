@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+<%- include('header'); -%>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>To Do list</title>
-    <link rel="stylesheet" href="css/styles2.css" />
-</head>
-
-<body>
+<body class="todo">
 
     <div class="box" id="heading">
         <h1><%= listTitle %></h1>
@@ -21,14 +13,11 @@
         </div>
 
         <% } %>
-        <form class="item" action="/" method="post">
-            <input type="text" name="newItem" placeholder="New Item" autocomplete="off" />
-            <button type="submit" name="list" value="<%= listTitle %>">+</button>
+        <form class="item" action="/todo" method="post">
+            <input id="inputItem"  type="text" name="newItem" placeholder="New Item" autocomplete="off" />
+            <button id="button" type="submit" name="list" value="<%= listTitle %>">+</button>
         </form>
     </div>
 </body>
-<footer>
-    Copyright 2019 by karslio
-</footer>
 
-</html>
+<%- include('footer'); -%>
