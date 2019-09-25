@@ -1,3 +1,8 @@
+//npm install  express-generator -g
+//express --view=ejs
+// npm install -g nodemon
+//npm install
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const date = require(__dirname + "/date.js");
@@ -30,7 +35,6 @@ app.post("/login", (req, res) => {
   name = req.body.inputname;
   email = req.body.inputemail;
   password = req.body.inputpassword;
-
   if (
     name === dataBase[0].fname &&
     email === dataBase[0].email &&
