@@ -38,7 +38,10 @@ app.get("/", function(req, res, next) {
 });
 
 app.post("/", (req, res) => {
+
   let item = req.body.newItem;
+
+  console.log(req.body)
   listItems.push(item);
   res.redirect("/");
 });

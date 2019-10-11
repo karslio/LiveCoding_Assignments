@@ -1,4 +1,4 @@
-$("button").click(function(e) {
+$("button").click(function (e) {
   e.preventDefault();
   let newAdd = $("#add").val();
   if (newAdd != "") {
@@ -11,31 +11,19 @@ $("button").click(function(e) {
   }
 });
 
-
-$(document).on("click", ".delete", function() {
+$(document).on("click", ".delete", function () {
   event.preventDefault();
-  $(this)
-    .closest("li")
-    .remove();
+  $(this).closest("li").remove();
 });
 
-$("#search-topics").on("keyup", function() {
-  let value = $("input")
-    .val()
-    .toLowerCase();
-  $("li").filter(function() {
-    $(this).toggle(
-      $(this)
-        .text()
-        .toLowerCase()
-        .indexOf(value) > -1
-    );
-  });
+$("#search-topics").on("keyup", function () {
+  let value = $("input").val().toLowerCase();
+  $("li").filter(function () { $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1 ); });
 });
 
-$('#hide').on('click', function () {
-  $('ul').toggle();
-  });
+$("#hide").on("click", function () {
+  $("ul").toggle();
+});
 
 // $(document).on('mousemove', function (e) {
 //   $('#footer').html(' y: '+e.clientY + " x: " +e.clientX);

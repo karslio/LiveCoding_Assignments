@@ -18,6 +18,7 @@
         </form>
       </div>
     </header>
+    <form action="/" method="post">
     <div id="topic-list">
       <h2 class="title"><%= topicList %></h2>
       <ul>
@@ -29,6 +30,7 @@
         <% }); %>
       </ul>
     </div>
+    </form>
     <form action="/" id="add-topic" method="POST">
       <input type="checkbox" id="hide" />
       <label id='hide' for="hide"> Hide all topics </label>
