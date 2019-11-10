@@ -1,0 +1,6 @@
+npm i express-generator -g
+npm install -g nodemon
+express --view=ejs
+
+
+//npm install
